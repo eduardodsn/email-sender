@@ -10,7 +10,7 @@ Send emails with attachments and store email addresses with SQLite DB
 ---
   
   
-### :heavy_exclamation_mark: Important requirements: :heavy_exclamation_mark:
+## :heavy_exclamation_mark: Important requirements: :heavy_exclamation_mark:
 ##### 1. You must have Python 3 installed, if you haven't installed yet, check [this tutorial](https://realpython.com/installing-python/#windows)!
 
 ##### 2. Make sure to click in "Add Python 3.x to PATH" in installation.
