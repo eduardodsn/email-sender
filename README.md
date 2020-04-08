@@ -23,7 +23,7 @@ Send emails with attachments and store email addresses with SQLite DB
 ---
   
   
-### :rocket: Running the code
+## :rocket: Running the code
 
 #### 1. Clone this repository or download the ZIP.
 
@@ -32,14 +32,20 @@ Send emails with attachments and store email addresses with SQLite DB
 ---
   
   
-### :book: Using the email sender
+## :book: Using the email sender
+![Main page](images/main-page.png)
 
-#### Send a single email
+### Send a single email
 - You have to log into your Gmail or MS Exchange account
 - For MS Exchange accounts, exchange server address is required. If you don't know how to do that, [check this](https://www.nucleustechnologies.com/blog/how-to-find-exchange-server-address/)
 - Send your email
 
-#### Database
+![Login page](images/login-page.png)
+![Send email](images/send-email-page.png)
+
+### Database
 - You can search for, save, edit and delete email addresses in the database.
 - Each registered email has its random unique ID.
 - You can send email to multiple email addresses by selecting the register and clicking in the button to append it.
+
+![Database page](images/database-page.png)
