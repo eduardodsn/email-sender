@@ -6,7 +6,7 @@ Send emails with attachments and store email addresses with SQLite DB
 :heavy_check_mark: Attachments  
 :heavy_check_mark: SMTP mailing  
 :heavy_check_mark: Exchange mailing  
-:x: Run on Linux  
+:x: Running on Linux  
 ---
   
   
