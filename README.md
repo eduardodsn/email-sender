@@ -11,9 +11,9 @@ Send emails with attachments and store email addresses with SQLite DB
   
   
 ## :heavy_exclamation_mark: Important requirements: :heavy_exclamation_mark:
-##### 1. You must have Python 3 installed, if you haven't installed yet, check [this tutorial](https://realpython.com/installing-python/#windows)!
+##### 1. You must have Python 3 installed, if you haven't installed yet, [check this tutorial](https://realpython.com/installing-python/#windows)!
 
-##### 2. Make sure to click in "Add Python 3.x to PATH" in installation.
+##### 2. Make sure to click in "Add Python 3.x to PATH" in installation
 
 ##### 3. Make sure pip is installed:
 - On terminal: `pip` - Some commands and informations should appear
@@ -25,9 +25,9 @@ Send emails with attachments and store email addresses with SQLite DB
   
 ## :rocket: Running the code
 
-#### 1. Clone this repository or download the ZIP.
+#### 1. Clone this repository or download the ZIP
 
-#### 2. Run the code.
+#### 2. Run the code
 - On terminal: `python main.py`
 ---
   
@@ -35,9 +35,13 @@ Send emails with attachments and store email addresses with SQLite DB
 ## :book: Using the email sender
 ![Main page](images/main-page.png)
 
+### Authentication
+- If you're using Gmail as the provider, you'll need to tell Google to allow you to connect via SMTP, which is considered a "less secure" method. If you don't know how to do that, [check this tutorial](https://devanswers.co/allow-less-secure-apps-access-gmail-account/)
+- If you're using MS Exchange, it's not necessary to do the steps above
+
 ### Send a single email
 - You have to log into your Gmail or MS Exchange account
-- For MS Exchange accounts, exchange server address is required. If you don't know how to do that, [check this](https://www.nucleustechnologies.com/blog/how-to-find-exchange-server-address/)
+- For MS Exchange accounts, exchange server address is required. If you don't know how to do that, [check this tutorial](https://www.nucleustechnologies.com/blog/how-to-find-exchange-server-address/)
 - Send your email
 
 ![Login page](images/login-page.png)
